@@ -1,5 +1,22 @@
+@import "variables";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.body{
+    background-color: $Dark-cyan;
+    font-family: $Font-family;
+
+    // &__top-bg{
+    //     border: red 2px solid;
+    //  background-image: url(../images/bg-pattern-top.svg) ;
+    //  height: 50%; 
+    // }
+    // &__bottom-bg{
+    //    background-image: url(../images/bg-pattern-bottom.svg) ;
+    //    height: 50%; 
+    // }
 }
