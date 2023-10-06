@@ -1,6 +1,5 @@
 # Frontend Mentor - Profile card component
 
-A simple QR code card project built using, HTML5, and SASS. 
 Welcome to the User Profile Card project! This project provides a simple and visually appealing card that showcases key information about a user, including the number of followers, likes, and photos. It's a great way to enhance your front-end development skills and practice.
 
 ![QR code component challenge on Frontend Mentor](./images/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png). 
