@@ -24,6 +24,7 @@
     &--victor {
       margin-top: -3.3rem;
       border-radius: 3rem;
+      border: 5px solid white;
     }
   }
   &__card-author {
@@ -31,6 +32,7 @@
       display: flex;
       align-items: baseline;
       justify-content: center;
+      margin-top: -0.5rem;
       
     }
   }

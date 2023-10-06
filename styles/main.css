@@ -21,11 +21,13 @@
 .main__card--victor {
   margin-top: -3.3rem;
   border-radius: 3rem;
+  border: 5px solid white;
 }
 .main__card-author--name-age {
   display: flex;
   align-items: baseline;
   justify-content: center;
+  margin-top: -0.5rem;
 }
 .main__card-name {
   font-size: 1.15rem;
