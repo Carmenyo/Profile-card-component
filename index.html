@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/emoji.jpg" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/emoji.jpg">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/main.css" />
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="./styles/main.css">
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
 
-  <title>Frontend Mentor | Profile card component</title>
-</head>
-
-<body class="body">
+  <body class="body">
     <div class="body__top-bg"></div>
     <div class="body__bottom-bg"></div>
-  
-  <main class="main">
-    <article class="main__card">
-        <img class="main__card--img" src="./images/bg-pattern-card.svg" alt="">
-      
-        <img class="main__card--victor" src="./images/image-victor.jpg" alt="">
-      
-      <div class="main__card-author">
-        <div class="main__card-author--nameAge">
-          <h1 class="main__card-name">Victor Crest</h1>
-        <span class="main__card--age">26</span></div>
-        
-        <span>London</span>
-      </div>
 
-      <div class="main__card-data">
-        <div class="main__card-data-item">
-          80K
-          Followers
-        </div>
-        <div class="main__card-data-item">
-          803K
-          Likes
-        </div>
-        <div class="main__card-data-item">
-          1.4K
-          Photos
-        </div>
-      </div>
-    </article>
-  </main>
-</body>
+    <main class="main">
+      <article class="main__card">
+        <img
+          class="main__card--img"
+          src="./images/bg-pattern-card.svg"
+          alt=""
+        />
+        <img class="main__card--victor" src="./images/image-victor.jpg" alt="" />
 
+        <div class="main__card-author">
+          <div class="main__card-author--name-age">
+            <h1 class="main__card-name">Victor Crest</h1>
+            <span class="main__card-age">26</span>
+          </div>
+
+          <span class="main__card-location">London</span>
+        </div>
+
+        <div class="main__card-data">
+          <div class="main__card-data-item">
+            <span class="main__card-data-item--number">80K</span>
+            <span class="main__card-data-item--definition">Followers</span>
+          </div>
+          <div class="main__card-data-item">
+            <span class="main__card-data-item--number"> 803K</span>
+            <span class="main__card-data-item--definition" >Likes</span>
+          </div>
+          <div class="main__card-data-item">
+            <span class="main__card-data-item--number">1.4K</span>
+            <span class="main__card-data-item--definition">Photos</span>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

@@ -11,33 +11,64 @@
   &__card {
     background-color: white;
     width: 20rem;
-    height: 22rem;
+    height: 23rem;
     border-radius: 1rem;
     overflow: hidden;
+    margin-top: 2rem;
+   
 
     &--img {
       width: 100%;
-      height: 9rem;
+      height: 8.5rem;
     }
     &--victor {
       margin-top: -3.3rem;
       border-radius: 3rem;
     }
   }
-
   &__card-author {
-    &--nameAge {
+    &--name-age {
       display: flex;
       align-items: baseline;
       justify-content: center;
-      gap: 1rem
+      
     }
-  
-
-
   }
   &__card-name{
-      font-size: 1rem;
+      font-size: 1.15rem;
+      margin: 1.3rem .5rem .4rem 0;
     }
+
+  &__card-location{
+    font-size: .8rem;
+  }
+
+  &__card-data{
+    margin-top: 1.5rem;
+    border-top: 1px solid rgb(223, 219, 219);
+    display: flex;
+    justify-content: center;
+    gap: 3.1rem
+  }
+
+&__card-data-item{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+
+  &--number{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  &--definition{
+    font-size: .6rem;
+    margin-top: .5rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+
+
+
 
 }
